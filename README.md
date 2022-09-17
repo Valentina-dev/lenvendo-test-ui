@@ -6,5 +6,7 @@
 2.Необходимо установить зависимости проекта используя команду pip install -r requirements.txt
 
 ### Запуск проекта производится командой 
-`pytest -s -v main.py`
+`pytest -s -v --alluredir=./allure-results main.py`
 
+### Команда для просмотра отчета
+`allure serve allure-results`
